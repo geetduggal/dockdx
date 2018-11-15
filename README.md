@@ -9,7 +9,7 @@ docker build -t dockdx .
 In a DNAnexus job, run:
 
 ```
-docker run -it -v $PWD:/tmpdx /bin/bash
+docker run -it -v $PWD:/tmpdx dockdx /bin/bash
 ```
 
 In this interactive terminal, type:
